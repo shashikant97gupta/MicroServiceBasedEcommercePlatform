@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "files": [],
+  "include": ["src", "../../packages/third-party-libs"],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    }
+  ]
+}

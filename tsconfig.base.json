@@ -16,6 +16,13 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["development"]
+    "customConditions": ["development"],
+    "baseUrl": ".",
+    "paths": {
+      "@third-party": ["packages/third-party-libs"]
+    },
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    
   }
 }
